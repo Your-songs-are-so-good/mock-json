@@ -61,7 +61,7 @@
     "dateFormat": "YYYY-MM-DD",
     "postUrlFormat": "SLUG",
     "tagUrlFormat": "SHORT_ID",
-    "domain": ""
+    "domain": ".."
   },
   "site": {
     "posts": [
