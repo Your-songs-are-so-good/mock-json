@@ -34,6 +34,12 @@
     "link": "/post/3",
     "hideInList": false,
     "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#markdown%E6%98%AF%E4%BB%80%E4%B9%88\">Markdown是什么</a></li>\n<li><a href=\"#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-markdown\">为什么要使用 Markdown</a></li>\n<li><a href=\"#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-markdown\">如何使用 Markdown</a>\n<ul>\n<li><a href=\"#1-%E6%A0%87%E9%A2%98\">1. 标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98\">二级标题</a></li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-2\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-2\">二级标题</a>\n<ul>\n<li><a href=\"#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98\">三级标题</a>\n<ul>\n<li><a href=\"#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98\">四级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98\">五级标题</a>\n<ul>\n<li><a href=\"#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98\">六级标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#2-%E6%AE%B5%E8%90%BD\">2. 段落</a></li>\n<li><a href=\"#3-%E5%88%97%E8%A1%A8\">3. 列表</a></li>\n<li><a href=\"#4-%E5%BC%BA%E8%B0%83\">4. 强调</a></li>\n<li><a href=\"#5-%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8\">5. 区块引用</a></li>\n<li><a href=\"#6-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97\">6. 代码区块</a></li>\n<li><a href=\"#7-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81\">7. 行内代码</a></li>\n<li><a href=\"#8-%E5%88%86%E5%89%B2%E7%BA%BF\">8. 分割线</a></li>\n<li><a href=\"#9-%E9%93%BE%E6%8E%A5\">9. 链接</a></li>\n<li><a href=\"#10-%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5\">10. 自动链接</a></li>\n<li><a href=\"#11-%E5%9B%BE%E7%89%87\">11. 图片</a></li>\n<li><a href=\"#12-%E5%8F%8D%E6%96%9C%E6%9D%A0\">12. 反斜杠</a></li>\n<li><a href=\"#13-%E8%A1%A8%E6%A0%BC%E6%89%A9%E5%B1%95\">13. 表格(扩展)</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n",
+    "stats": {
+      "text": "3 min read",
+      "minutes": 2,
+      "time": 1200000,
+      "words": 1000
+    },
     "nextPost": {
       "content": "<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>\n<!-- more -->\n<h2 id=\"vuejs-是什么\">Vue.js 是什么</h2>\n<p>Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href=\"https://cn.vuejs.org/v2/guide/single-file-components.html\">现代化的工具链</a>以及各种<a href=\"https://github.com/vuejs/awesome-vue#libraries--plugins\">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>\n<p>如果你想在深入学习 Vue 之前对它有更多了解，我们制作了一个视频，带您了解其核心概念和一个示例工程。</p>\n<p>如果你已经是有经验的前端开发者，想知道 Vue 与其它库/框架有哪些区别，请查看<a href=\"https://cn.vuejs.org/v2/guide/comparison.html\">对比其它框架</a>。</p>\n<h2 id=\"起步\">起步</h2>\n<blockquote>\n<p>官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识。如果你刚开始学习前端开发，将框架作为你的第一步可能不是最好的主意——掌握好基础知识再来吧！之前有其它框架的使用经验会有帮助，但这不是必需的。</p>\n</blockquote>\n<p>尝试 Vue.js 最简单的方法是使用 <a href=\"https://jsfiddle.net/chrisvfritz/50wL7mdz/\">JSFiddle 上的 Hello World 例子</a>。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法。或者你也可以创建一个 .html 文件，然后通过如下方式引入 Vue：</p>\n<pre><code class=\"language-html\">&lt;!-- 开发环境版本，包含了有帮助的命令行警告 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p>或者：</p>\n<pre><code class=\"language-html\">&lt;!-- 生产环境版本，优化了尺寸和速度 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p><a href=\"https://cn.vuejs.org/v2/guide/installation.html\">安装教程</a>给出了更多安装 Vue 的方式。请注意我们不推荐新手直接使用 <code>vue-cli</code>，尤其是在你还不熟悉基于 Node.js 的构建工具时。</p>\n<p>如果你喜欢交互式的东西，你也可以查阅<a href=\"https://scrimba.com/playlist/pXKqta\">这个 Scrimba 上的系列教程</a>，它揉合了录屏和代码试验田，并允许你随时暂停和播放。</p>\n",
       "fileName": "2",
@@ -106,7 +112,13 @@
       "feature": "https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
       "link": "/post/3",
       "hideInList": false,
-      "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#markdown%E6%98%AF%E4%BB%80%E4%B9%88\">Markdown是什么</a></li>\n<li><a href=\"#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-markdown\">为什么要使用 Markdown</a></li>\n<li><a href=\"#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-markdown\">如何使用 Markdown</a>\n<ul>\n<li><a href=\"#1-%E6%A0%87%E9%A2%98\">1. 标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98\">二级标题</a></li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-2\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-2\">二级标题</a>\n<ul>\n<li><a href=\"#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98\">三级标题</a>\n<ul>\n<li><a href=\"#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98\">四级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98\">五级标题</a>\n<ul>\n<li><a href=\"#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98\">六级标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#2-%E6%AE%B5%E8%90%BD\">2. 段落</a></li>\n<li><a href=\"#3-%E5%88%97%E8%A1%A8\">3. 列表</a></li>\n<li><a href=\"#4-%E5%BC%BA%E8%B0%83\">4. 强调</a></li>\n<li><a href=\"#5-%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8\">5. 区块引用</a></li>\n<li><a href=\"#6-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97\">6. 代码区块</a></li>\n<li><a href=\"#7-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81\">7. 行内代码</a></li>\n<li><a href=\"#8-%E5%88%86%E5%89%B2%E7%BA%BF\">8. 分割线</a></li>\n<li><a href=\"#9-%E9%93%BE%E6%8E%A5\">9. 链接</a></li>\n<li><a href=\"#10-%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5\">10. 自动链接</a></li>\n<li><a href=\"#11-%E5%9B%BE%E7%89%87\">11. 图片</a></li>\n<li><a href=\"#12-%E5%8F%8D%E6%96%9C%E6%9D%A0\">12. 反斜杠</a></li>\n<li><a href=\"#13-%E8%A1%A8%E6%A0%BC%E6%89%A9%E5%B1%95\">13. 表格(扩展)</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n"
+      "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#markdown%E6%98%AF%E4%BB%80%E4%B9%88\">Markdown是什么</a></li>\n<li><a href=\"#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-markdown\">为什么要使用 Markdown</a></li>\n<li><a href=\"#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-markdown\">如何使用 Markdown</a>\n<ul>\n<li><a href=\"#1-%E6%A0%87%E9%A2%98\">1. 标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98\">二级标题</a></li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-2\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-2\">二级标题</a>\n<ul>\n<li><a href=\"#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98\">三级标题</a>\n<ul>\n<li><a href=\"#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98\">四级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98\">五级标题</a>\n<ul>\n<li><a href=\"#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98\">六级标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#2-%E6%AE%B5%E8%90%BD\">2. 段落</a></li>\n<li><a href=\"#3-%E5%88%97%E8%A1%A8\">3. 列表</a></li>\n<li><a href=\"#4-%E5%BC%BA%E8%B0%83\">4. 强调</a></li>\n<li><a href=\"#5-%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8\">5. 区块引用</a></li>\n<li><a href=\"#6-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97\">6. 代码区块</a></li>\n<li><a href=\"#7-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81\">7. 行内代码</a></li>\n<li><a href=\"#8-%E5%88%86%E5%89%B2%E7%BA%BF\">8. 分割线</a></li>\n<li><a href=\"#9-%E9%93%BE%E6%8E%A5\">9. 链接</a></li>\n<li><a href=\"#10-%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5\">10. 自动链接</a></li>\n<li><a href=\"#11-%E5%9B%BE%E7%89%87\">11. 图片</a></li>\n<li><a href=\"#12-%E5%8F%8D%E6%96%9C%E6%9D%A0\">12. 反斜杠</a></li>\n<li><a href=\"#13-%E8%A1%A8%E6%A0%BC%E6%89%A9%E5%B1%95\">13. 表格(扩展)</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n",
+      "stats": {
+        "text": "3 min read",
+        "minutes": 2,
+        "time": 1200000,
+        "words": 1000
+      }
     }, {
       "content": "<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>\n<!-- more -->\n<h2 id=\"vuejs-是什么\">Vue.js 是什么</h2>\n<p>Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href=\"https://cn.vuejs.org/v2/guide/single-file-components.html\">现代化的工具链</a>以及各种<a href=\"https://github.com/vuejs/awesome-vue#libraries--plugins\">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>\n<p>如果你想在深入学习 Vue 之前对它有更多了解，我们制作了一个视频，带您了解其核心概念和一个示例工程。</p>\n<p>如果你已经是有经验的前端开发者，想知道 Vue 与其它库/框架有哪些区别，请查看<a href=\"https://cn.vuejs.org/v2/guide/comparison.html\">对比其它框架</a>。</p>\n<h2 id=\"起步\">起步</h2>\n<blockquote>\n<p>官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识。如果你刚开始学习前端开发，将框架作为你的第一步可能不是最好的主意——掌握好基础知识再来吧！之前有其它框架的使用经验会有帮助，但这不是必需的。</p>\n</blockquote>\n<p>尝试 Vue.js 最简单的方法是使用 <a href=\"https://jsfiddle.net/chrisvfritz/50wL7mdz/\">JSFiddle 上的 Hello World 例子</a>。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法。或者你也可以创建一个 .html 文件，然后通过如下方式引入 Vue：</p>\n<pre><code class=\"language-html\">&lt;!-- 开发环境版本，包含了有帮助的命令行警告 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p>或者：</p>\n<pre><code class=\"language-html\">&lt;!-- 生产环境版本，优化了尺寸和速度 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p><a href=\"https://cn.vuejs.org/v2/guide/installation.html\">安装教程</a>给出了更多安装 Vue 的方式。请注意我们不推荐新手直接使用 <code>vue-cli</code>，尤其是在你还不熟悉基于 Node.js 的构建工具时。</p>\n<p>如果你喜欢交互式的东西，你也可以查阅<a href=\"https://scrimba.com/playlist/pXKqta\">这个 Scrimba 上的系列教程</a>，它揉合了录屏和代码试验田，并允许你随时暂停和播放。</p>\n",
       "fileName": "2",
@@ -148,7 +160,13 @@
       "feature": "https://images.unsplash.com/photo-1555400113-4961f30f68bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
       "link": "/post/1",
       "hideInList": false,
-      "toc": ""
+      "toc": "",
+      "stats": {
+        "text": "3 min read",
+        "minutes": 2,
+        "time": 1200000,
+        "words": 1000
+      }
     }, {
       "content": "<p>这是关于的页面，可以在这里向世界介绍你！</p>\n<p>Gridea —— 一个静态博客写作客户端。开源、易用、强大～<br>\n记录生活、心情、知识、笔记、创意...<br>\n尽情发挥你的才华吧！</p>\n<p>😘 𝖤𝗇𝗃𝗈𝗒~</p>\n",
       "fileName": "about",
@@ -160,7 +178,13 @@
       "feature": "",
       "link": "/post/about",
       "hideInList": true,
-      "toc": ""
+      "toc": "",
+      "stats": {
+        "text": "3 min read",
+        "minutes": 2,
+        "time": 1200000,
+        "words": 1000
+      }
     }, {
       "content": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n<!-- more -->\n<p><a href=\"https://github.com/getgridea/gridea\">Github</a><br>\n<a href=\"http://hvenotes.fehey.com/\">Gridea 主页</a><br>\n<a href=\"http://fehey.com/\">示例网站</a></p>\n<h2 id=\"特性\">特性👇</h2>\n<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>\n<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>\n<p>🏷️  你可以对文章进行标签分组</p>\n<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>\n<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>\n<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>\n<p>💬  你可以进行简单的配置，接入 <a href=\"https://github.com/gitalk/gitalk\">Gitalk</a> 或 <a href=\"https://github.com/SukkaW/DisqusJS\">DisqusJS</a> 评论系统</p>\n<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>\n<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>\n<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>\n<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>\n<p>未来，它一定会成为你离不开的伙伴</p>\n<p>尽情发挥你的才华吧！</p>\n<p>😘 Enjoy~</p>\n",
       "fileName": "hello-gridea",
