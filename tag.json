@@ -206,27 +206,31 @@
         "name": "生活随想",
         "slug": "WibWptDz1",
         "used": true,
-        "link": "/tag/WibWptDz1"
+        "link": "/tag/WibWptDz1",
+        "count": 3
       },
       {
         "index": -1,
         "name": "编程生涯",
         "slug": "rwkHQqSzU",
         "used": true,
-        "link": "/tag/rwkHQqSzU"
+        "link": "/tag/rwkHQqSzU",
+        "count": 12
       },
       {
         "index": -1,
         "name": "文学集锦",
         "slug": "V6NMYW_ta",
         "used": true,
-        "link": "/tag/V6NMYW_ta"
+        "link": "/tag/V6NMYW_ta",
+        "count": 5
       },
       {
         "name": "Gridea",
         "slug": "gridea",
         "used": true,
-        "link": "/tag/gridea"
+        "link": "/tag/gridea",
+        "count": 1
       }
     ],
     "customConfig": {},

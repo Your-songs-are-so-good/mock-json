@@ -50,7 +50,8 @@
         "name": "编程生涯",
         "slug": "rwkHQqSzU",
         "used": true,
-        "link": "/tag/rwkHQqSzU"
+        "link": "/tag/rwkHQqSzU",
+        "count": 1
       }],
       "date": "2019-04-18 18:11:37",
       "dateFormat": "2019-04-18",
@@ -105,7 +106,8 @@
         "name": "生活随想",
         "slug": "WibWptDz1",
         "used": true,
-        "link": "/tag/WibWptDz1"
+        "link": "/tag/WibWptDz1",
+        "count": 1
       }],
       "date": "2019-04-18 18:32:46",
       "dateFormat": "2019-04-18",
@@ -129,7 +131,8 @@
         "name": "编程生涯",
         "slug": "rwkHQqSzU",
         "used": true,
-        "link": "/tag/rwkHQqSzU"
+        "link": "/tag/rwkHQqSzU",
+        "count": 1
       }],
       "date": "2019-04-18 18:11:37",
       "dateFormat": "2019-04-18",
@@ -153,7 +156,8 @@
         "name": "文学集锦",
         "slug": "V6NMYW_ta",
         "used": true,
-        "link": "/tag/V6NMYW_ta"
+        "link": "/tag/V6NMYW_ta",
+        "count": 3
       }],
       "date": "2019-04-18 17:47:58",
       "dateFormat": "2019-04-18",
@@ -194,7 +198,8 @@
         "name": "Gridea",
         "slug": "gridea",
         "used": true,
-        "link": "/tag/gridea"
+        "link": "/tag/gridea",
+        "count": 12
       }],
       "date": "2018-12-12 00:00:00",
       "dateFormat": "2018-12-12",
@@ -209,30 +214,39 @@
         "words": 1000
       }
     }],
-    "tags": [{
-      "index": -1,
-      "name": "生活随想",
-      "slug": "WibWptDz1",
-      "used": true,
-      "link": "/tag/WibWptDz1"
-    }, {
-      "index": -1,
-      "name": "编程生涯",
-      "slug": "rwkHQqSzU",
-      "used": true,
-      "link": "/tag/rwkHQqSzU"
-    }, {
-      "index": -1,
-      "name": "文学集锦",
-      "slug": "V6NMYW_ta",
-      "used": true,
-      "link": "/tag/V6NMYW_ta"
-    }, {
-      "name": "Gridea",
-      "slug": "gridea",
-      "used": true,
-      "link": "/tag/gridea"
-    }],
+    "tags": [
+      {
+        "index": -1,
+        "name": "生活随想",
+        "slug": "WibWptDz1",
+        "used": true,
+        "link": "/tag/WibWptDz1",
+        "count": 3
+      },
+      {
+        "index": -1,
+        "name": "编程生涯",
+        "slug": "rwkHQqSzU",
+        "used": true,
+        "link": "/tag/rwkHQqSzU",
+        "count": 12
+      },
+      {
+        "index": -1,
+        "name": "文学集锦",
+        "slug": "V6NMYW_ta",
+        "used": true,
+        "link": "/tag/V6NMYW_ta",
+        "count": 5
+      },
+      {
+        "name": "Gridea",
+        "slug": "gridea",
+        "used": true,
+        "link": "/tag/gridea",
+        "count": 1
+      }
+    ],
     "customConfig": {},
     "utils": {
       "now": 1555638809279
