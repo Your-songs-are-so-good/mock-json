@@ -232,6 +232,7 @@
     "customConfig": {},
     "utils": {
       "now": 1555639472044
-    }
+    },
+    "isHomepage": false
   }
 }
