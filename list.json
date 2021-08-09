@@ -6,6 +6,11 @@
       "openType": "Internal"
     },
     {
+      "link": "/chat",
+      "name": "动态",
+      "openType": "Internal"
+    },
+    {
       "link": "/archives",
       "name": "归档",
       "openType": "Internal"
